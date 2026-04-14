@@ -7,6 +7,8 @@ rag本地知识库
 2. 上传文档：读取上传文档并按段落切分，向量化再传入向量数据库
 3. 检索：采用向量相似度加关键词加重排序的混合检索
 4. 模型：通过LangChain框架调用本地ollama模型
+
+在python解释器终端输入streamlit run main.py
 	
 嵌入模型：nomic-embed-text:latest
 大语言模型：deepseek-r1:1.5b
